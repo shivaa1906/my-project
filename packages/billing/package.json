@@ -1,0 +1,16 @@
+{
+  "name": "@voice-saas/billing",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@voice-saas/shared": "*",
+    "@voice-saas/database": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
